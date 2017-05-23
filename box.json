@@ -1,0 +1,21 @@
+{
+    "chmod": "0755",
+    "directories": [
+        "../pirate_bootstrap"
+    ],
+    "files": [
+        "README.md"
+    ],
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": ["pirate-captain-hook-class"],
+            "in": "crew"
+        }
+    ],
+    "git-tag": "1.2.1",
+    "git-version": "package_version",
+    "main": "pirate_bootstrap",
+    "output": "pirate_bootstrap.phar",
+    "stub": true
+}
